@@ -5,6 +5,7 @@ import random
 
 m= np.matrix([[0, 0, 0, 0], [0, 1, -1, 0], [0, -1, 1, 0], [0, 0, 0, 0]])
 
+#Play automatically for 3 turns as default
 t = 0
 while t <= 2:
     w = random.randint(0, 2)
