@@ -11,10 +11,29 @@ public class AutOthello{
 		int w = rand.nextInt(3);
 		int h = rand.nextInt(3);
 		while (h <= 1) {
-    		if (m[w-1][h]+m[w][h]==0); {
-//Here is the detail of algorithm! 
-        		}
-    		}
-		}
+    		if (m[w-1][h]+m[w][h]>=-1); {
+             m[w][h] = 0;
+             w = w + 1;
+             if (1 <= w && w <= 2); {
+                 m[w-1][h] = 1;
+                 m[w+1][h] = 1;
+// Here has an error in compiling. 
+            } else if (w <= 1) {
+                 if (m[w][h] == m[w+2][h]); {
+                 m[w+1][h] = 1;
+                 m[w+2][h] = 1;
+                     }
+            } else if (w >= 2) {
+            		if (m[w][h] == m[w-2][h]); {
+                	m[w-1][h] = 1;
+                	m[w-1][h] = 1;
+                    	}
+                }
+// Uncompleted coding.
+            }
+    	       System.out.println(m);
+    	       t = t + 1; 
+        	}
 	}
+    }
 }
