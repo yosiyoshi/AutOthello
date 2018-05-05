@@ -6,6 +6,10 @@ Easy and simple Othello AI
 Supporting: Python 3.x, Java (in development)
 
 
+# GUI Sample
+https://twitter.com/yosiyos38795255/status/992786592690388993
+
+
 # Play Demo
 /1
 
